@@ -1,0 +1,142 @@
+body {
+    box-sizing: border-box;
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.wrapper {
+    max-width: 1240px;
+    margin:  auto;
+}
+
+.header__wrapper,.trip__wrapper, .tour__wrapper, .footer__wrapper {
+    padding: 0 100px;
+}
+
+.logo {
+    margin: 12px 0px;
+}
+
+.main {
+    width: 100%; 
+    height: 500px; 
+    overflow: hidden; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.img__promo {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: auto; 
+    height: auto; 
+    max-width: none; 
+    max-height: none;
+}
+
+
+
+.trip__title {
+    text-align: center;
+    margin: 80px 0px 60px 0px;
+    font-family: Cinzel;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.trip_sub-title {
+    text-align: center;
+    width: 1122.747px;
+    margin-bottom: 77px;
+}
+
+
+.trip__gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img__gallery {
+    margin-right: 76px;
+    margin-bottom: 7px;
+}
+
+.trip__gallery .img__gallery:nth-child(3n) {
+    margin-right: 0;
+}
+
+.tour__title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 44px;
+    color: #333;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tour__date {
+    margin-bottom: 16.5px;
+}
+
+.soldout__color {
+    color: #F00;
+}
+.available__color {
+    color: #008000;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px;
+}
+
+.facebook {
+    color: #3B5998;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.twitter {
+    color: #1DA1F2;
+    font-family: Poppins;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.linkedin {
+    color: #C32AA3;
+    font-family: Poppins;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
